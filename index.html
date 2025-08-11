@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.3/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <div class="form-group">
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" placeholder="Enter your first name">
+    <div class="output"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" placeholder="Enter your last name">
+    <div class="output"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" placeholder="Enter your phone number">
+    <div class="output"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="birthdate">Birthdate:</label>
+    <input type="text" id="birthdate" placeholder="Enter your birthdate">
+    <div class="output"></div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email">
+    <div class="output"></div>
+  </div>
+
+  <div class="password-box">
+    <div class="password-field">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password">
+      <div class="output"></div>
+    </div>
+    <div class="password-field">
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" placeholder="Confirm your password">
+      <div class="output"></div>
+    </div>
+  </div>
+
+  <button type="submit" class="submit-button">Submit</button>
+</form>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.3/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>
