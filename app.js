@@ -123,13 +123,8 @@ form.addEventListener("submit", (e) => {
             icon: "success",
             title: "Signed in successfully"
         });
-        fnameField.value = '';
-        lnameField.value = '';  
-        phoneField.value = '';
-        birthdateField.value = '';
-        emailField.value = '';
-        passwordField.value = '';
-        passwordField2.value = '';
+        form.reset();
+        document.querySelectorAll(".output").forEach(output => output.innerHTML = '');
     } else {
         Swal.fire({
             icon: "error",
